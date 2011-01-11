@@ -1,0 +1,74 @@
+div.wp-image-widget-field {
+	margin: 2px;
+	
+	border: solid 1px #DFDFDF;
+	padding: 5px;
+	
+	position: relative;
+	width: 150px;
+	height: 100px;
+	
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+}
+
+
+div.wp-image-widget-field .wp-image-widget-image {
+	text-align: center;
+	line-height: 100px;
+	height: 100px;
+	overflow: hidden;
+}
+
+
+div.wp-image-widget-field .wp-image-widget-image img {
+	vertical-align: middle;
+}
+
+
+div.wp-image-widget-image--buttons {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	
+	display: none;
+}
+
+
+div.wp-image-widget-image--add-image-buttons {
+	top: 45px;
+}
+
+
+div.wp-image-widget-image--change-image-buttons {
+	padding-top: 30px;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(200,200,200,.8);
+	left: -9999px;
+}
+
+
+div.wp-image-widget-field:hover div.wp-image-widget-image--change-image-buttons {
+	left: 0;
+}
+
+
+div.wp-image-widget-image--with-image .wp-image-widget-image--change-image-buttons,
+div.wp-image-widget-image--without-image .wp-image-widget-image--add-image-buttons {
+	display: block;
+}
+
+
+div.wp-image-widget-image--with-image .wp-image-widget-image--change-image-buttons a {
+	display: inline-block;
+	margin: 5px 0;
+}
+
+
+div.wp-image-widget-image--with-image a.delete {
+	color: #c00;
+}
+
+
